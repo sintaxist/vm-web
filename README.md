@@ -1,6 +1,8 @@
-# wm-web
+# VERONICA MILLRES WEB
 
 Make a siteb for an architect who wants to reach more people to make her work known.
+
+You can see the site here [http://www.veronicamillares.com/](http://www.veronicamillares.com/)
 
 ## Insigths
 
