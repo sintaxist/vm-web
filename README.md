@@ -1,4 +1,4 @@
-# VERONICA MILLRES WEB
+# VERONICA MILLARES WEB
 
 Make a siteb for an architect who wants to reach more people to make her work known.
 
