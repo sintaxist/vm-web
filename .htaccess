@@ -1,0 +1,29 @@
+# Custom Directory Views
+
+# ENABLE DIRECTORY
+Options +Indexes
+
+# SET INDEX OPTIONS 
+IndexOptions IgnoreCase FancyIndexing FoldersFirst SuppressHTMLPreamble
+
+# IGNORE THESE FILES
+IndexIgnore .htaccess .ftpquota favicon.ico _001.gif _002.gif _003.gif _00a.html _00b.html _000.css cgi-bin
+
+# SET DISPLAY ORDER
+IndexOrderDefault Descending Name
+
+# SPECIFY HEADER FILE
+HeaderName _00a.html
+
+# SPECIFY FOOTER FILE
+ReadmeName _00b.html
+
+# FOLDER DESCRIPTIONS
+AddDescription "<span class='description'>Private Directory</span>" transfer
+
+# SPECIFY CUSTOM ICONS
+AddIcon _001.gif .txt .pdf .zip .jpg .jpeg .jpe .JPG .png .gif .mp3 .rar .mpg .indd .psd .tar .tif .html .htm .css .doc .log .js .ico, .eml
+AddIcon _002.gif ^^DIRECTORY^^
+AddIcon _003.gif *.
+
+Header always set Content-Security-Policy: upgrade-insecure-requests

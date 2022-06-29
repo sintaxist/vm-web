@@ -1,0 +1,109 @@
+{
+    "videos":[
+        {
+            "id": 1,
+            "name": "video-conoceme",
+            "path": "conoceme.mp4",
+            "alt": "conoceme",
+            "poster": "placeholder.svg"
+        },
+        {
+            "id": 2,
+            "name": "video-1",
+            "path": "video1",
+            "alt": "video1",
+            "poster": "placeholder.svg"
+        },
+        {
+            "id": 3,
+            "name": "video-2",
+            "path": "video2",
+            "alt": "video2",
+            "poster": "placeholder.svg"
+        },
+        {
+            "id": 4,
+            "name": "video-3",
+            "path": "video3",
+            "alt": "video3",
+            "poster": "placeholder.svg"
+        },
+        {
+            "id": 5,
+            "name": "video-4",
+            "path": "video4",
+            "alt": "video4",
+            "poster": "placeholder.svg"
+        }
+    ],
+    "imagenes1":[
+        {
+            "id": 1,
+            "name": "img1",
+            "path": "20220216_092813.jpg",
+            "alt": "img1"
+        },
+        {
+            "id": 2,
+            "name": "img2",
+            "path": "20220216_092828.jpg",
+            "alt": "img2"
+        },
+        {
+            "id": 3,
+            "name": "img3",
+            "path": "20220216_092855.jpg",
+            "alt": "img3"
+        },
+        {
+            "id": 4,
+            "name": "img4",
+            "path": "20220216_092830.jpg",
+            "alt": "img4"
+        },
+        {
+            "id": 5,
+            "name": "img5",
+            "path": "20220216_093149.jpg",
+            "alt": "img5"
+        }
+    ],
+    "imagenes2":[
+        {
+            "id": 1,
+            "name": "img1",
+            "path": "20220216_093152.jpg",
+            "alt": "img1"
+        },
+        {
+            "id": 2,
+            "name": "img2",
+            "path": "20220216_093523.jpg",
+            "alt": "img2"
+        },
+        {
+            "id": 3,
+            "name": "img3",
+            "path": "20220216_093623.jpg",
+            "alt": "img3"
+        },
+        {
+            "id": 4,
+            "name": "img4",
+            "path": "20220216_093633.jpg",
+            "alt": "img4"
+        },
+        {
+            "id": 5,
+            "name": "img5",
+            "path": "20220216_093636.jpg",
+            "alt": "img5"
+        },
+        {
+            "id": 6,
+            "name": "img6",
+            "path": "20220216_093725.jpg",
+            "alt": "img6"
+        }
+    ]
+}
