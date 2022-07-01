@@ -1,0 +1,630 @@
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <link rel="icon" href="./favicon/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
+  <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.4.8/plyr.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+  <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Verónica Millares</title>
+</head>
+</style>
+
+<body id="body">
+
+  <div id='modal-container'>
+    <div id="modal-overlay"></div>
+    <div id="modal-contain">
+      <img id='modal' src="" alt="img modal">
+      <img id='cerrar-modal' src="img/cerrar-modal.svg" alt="">
+    </div>
+  </div>
+
+  <nav class="navbar">
+    <ul>
+      <li class="body">
+        <a id='body-link' class='active' href="#body">
+          <span>Verónica Millares</span>
+        </a>
+      </li>
+      <li class="first-section">
+        <a id='first-section-link' href="#first-section">
+          <span>Sobre Mi</span>
+        </a>
+      </li>
+      <li class="second-section">
+        <a id='second-section-link' href="#second-section">
+          <span>Tu cocina optimizada</span>
+        </a>
+      </li>
+      <li class="video-section">
+        <a id='video-section-link' href="#video-section">
+          <span>Manos a la Obra</span>
+        </a>
+      </li>
+      <li class="form-section">
+        <a id='form-section-link' href="#form-section">
+          <span>Agenda una asesoría</span>
+        </a>
+      </li>
+    </ul>
+
+    <div class="scroll-downs">
+      <p>scroll</p>
+      <div class="mousey">
+        <div class="scroller"></div>
+      </div>
+    </div>
+
+  </nav>
+
+  <div id="div-parallax">
+  <section id="vero-section">
+
+    <a class='logo-vero' href="">
+      <svg class='svg-vero' width="345" height="38" viewBox="0 0 345 38" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#clip0_85_351)">
+          <path class='V-letter'
+            d="M4.40426 7.30774L12.6989 28.2077L21.2138 7.30774H25.6181L12.6255 38.2924L0 7.30774H4.40426Z"
+            fill="#2C2C2C" />
+          <path class='letter-disappear'
+            d="M42.2072 13.2269H31.5636V19.5846H41.9136V23.3115H31.5636V32.1538H42.2072V35.9538H27.5264V9.5H42.2072V13.2269Z"
+            fill="#2C2C2C" />
+          <path class='letter-disappear'
+            d="M56.4477 24.6269L64.6689 35.8808H59.7509L52.1902 25.1385H51.4562V35.9538H47.4189V9.5H52.1168C55.6402 9.5 58.136 10.1577 59.7509 11.4731C61.4392 12.9346 62.32 14.8346 62.32 17.2462C62.32 19.1462 61.8062 20.7538 60.7051 22.0692C59.6775 23.4577 58.2094 24.2615 56.4477 24.6269ZM51.4562 21.6308H52.7041C56.5211 21.6308 58.4296 20.1692 58.4296 17.3192C58.4296 14.6154 56.5945 13.2269 52.9243 13.2269H51.5296V21.6308H51.4562Z"
+            fill="#2C2C2C" />
+          <path class='letter-disappear'
+            d="M64.6689 22.5808C64.6689 18.8539 66.0636 15.6385 68.7796 13.0077C71.4955 10.3039 74.7987 8.9885 78.6158 8.9885C82.4328 8.9885 85.6626 10.3039 88.3785 13.0077C91.0945 15.7116 92.4892 18.927 92.4892 22.727C92.4892 26.527 91.0945 29.7423 88.3785 32.3731C85.6626 35.0039 82.3594 36.3923 78.469 36.3923C75.019 36.3923 71.936 35.2231 69.22 32.8116C66.137 30.2539 64.6689 26.8193 64.6689 22.5808ZM68.7062 22.6539C68.7062 25.577 69.6604 27.9885 71.6424 29.8885C73.6243 31.7885 75.8998 32.7385 78.469 32.7385C81.2583 32.7385 83.6073 31.7885 85.5158 29.8885C87.4243 27.9154 88.3785 25.577 88.3785 22.8C88.3785 19.95 87.4243 17.6116 85.5158 15.7116C83.6073 13.8116 81.3317 12.8616 78.5424 12.8616C75.753 12.8616 73.4775 13.8116 71.5689 15.7116C69.6604 17.5385 68.7062 19.877 68.7062 22.6539ZM84.6349 2.41158L77.5881 7.16158L75.6796 5.55389L81.1849 0.0731201L84.6349 2.41158Z"
+            fill="#2C2C2C" />
+          <path class='letter-disappear'
+            d="M95.3521 35.9539V7.6731L114.731 27.8423V9.50002H118.695V37.5616L99.3159 17.3923V35.9539H95.3521Z"
+            fill="#2C2C2C" />
+          <path class='letter-disappear' d="M127.723 9.5H123.686V35.9538H127.723V9.5Z" fill="#2C2C2C" />
+          <path class='letter-disappear'
+            d="M152.314 10.8884V15.6384C149.965 13.7384 147.616 12.7153 145.12 12.7153C142.404 12.7153 140.055 13.6653 138.22 15.6384C136.312 17.6115 135.431 19.9499 135.431 22.7999C135.431 25.5769 136.385 27.9153 138.22 29.8153C140.129 31.7153 142.404 32.6653 145.12 32.6653C146.515 32.6653 147.763 32.4461 148.717 32.0076C149.304 31.7884 149.818 31.4961 150.405 31.0576C150.993 30.6922 151.653 30.1807 152.241 29.6692V34.4923C149.965 35.8076 147.543 36.3922 145.047 36.3922C141.23 36.3922 138 35.0769 135.358 32.4461C132.715 29.8153 131.32 26.5999 131.32 22.7999C131.32 19.4384 132.421 16.4422 134.697 13.8115C137.486 10.5961 141.01 8.9884 145.414 8.9884C147.763 8.9884 150.038 9.6461 152.314 10.8884Z"
+            fill="#2C2C2C" />
+          <path class='letter-disappear'
+            d="M172.867 29.5231H161.489L158.553 35.9538H154.222L167.362 7.81921L180.06 35.9538H175.656L172.867 29.5231ZM171.252 25.7961L167.288 16.8077L163.177 25.7961H171.252Z"
+            fill="#2C2C2C" />
+          <path class='M-letter'
+            d="M191.952 38.2923L198.192 5.33459L207.294 25.8692L216.763 5.33459L222.121 38.2923H218.011L215.148 17.7577L207.22 34.9307L199.586 17.7577L196.063 38.2923H191.952Z"
+            fill="#2C2C2C" />
+          <path class='letter-disappear' d="M229.315 9.5H225.278V35.9538H229.315V9.5Z" fill="#2C2C2C" />
+          <path class='letter-disappear' d="M238.27 9.5V32.1538H246.125V35.9538H234.307V9.5H238.27Z" fill="#2C2C2C" />
+          <path class='letter-disappear' d="M253.245 9.5V32.1538H261.026V35.9538H249.208V9.5H253.245Z"
+            fill="#2C2C2C" />
+          <path class='letter-disappear'
+            d="M281.212 29.5231H269.834L266.898 35.9538H262.567L275.706 7.81921L288.405 35.9538H284.001L281.212 29.5231ZM279.597 25.7961L275.633 16.8077L271.522 25.7961H279.597Z"
+            fill="#2C2C2C" />
+          <path class='letter-disappear'
+            d="M299.269 24.6269L307.49 35.8808H302.572L295.012 25.0654H294.277V35.8808H290.24V9.5H294.938C298.462 9.5 300.957 10.1577 302.572 11.4731C304.26 12.9346 305.141 14.8346 305.141 17.2462C305.141 19.1462 304.627 20.7538 303.526 22.0692C302.499 23.4577 301.031 24.2615 299.269 24.6269ZM294.277 21.6308H295.525C299.342 21.6308 301.251 20.1692 301.251 17.3192C301.251 14.6154 299.416 13.2269 295.746 13.2269H294.351V21.6308H294.277Z"
+            fill="#2C2C2C" />
+          <path class='letter-disappear'
+            d="M324.74 13.2269H314.097V19.5846H324.447V23.3115H314.097V32.1538H324.74V35.9538H310.06V9.5H324.74V13.2269Z"
+            fill="#2C2C2C" />
+          <path class='letter-disappear'
+            d="M344.34 13.4462L341.11 15.3462C340.522 14.3231 339.935 13.5923 339.348 13.3C338.761 12.9346 338.027 12.7154 337.146 12.7154C336.045 12.7154 335.091 13.0077 334.357 13.6654C333.622 14.25 333.255 15.0539 333.255 16.0039C333.255 17.3193 334.21 18.3423 336.118 19.1462L338.761 20.2423C340.89 21.1193 342.504 22.1423 343.459 23.3846C344.486 24.6269 344.927 26.1616 344.927 27.9885C344.927 30.4 344.119 32.4462 342.504 33.9808C340.89 35.5885 338.834 36.3923 336.412 36.3923C334.136 36.3923 332.228 35.7346 330.686 34.3462C329.218 32.9577 328.264 31.0577 327.897 28.5731L331.934 27.6962C332.081 29.2308 332.448 30.3269 332.888 30.9116C333.696 32.0808 334.944 32.5923 336.485 32.5923C337.733 32.5923 338.761 32.1539 339.568 31.35C340.376 30.5462 340.816 29.45 340.816 28.2077C340.816 27.6962 340.743 27.2577 340.596 26.8193C340.449 26.3808 340.229 26.0154 339.935 25.65C339.642 25.2846 339.201 24.9193 338.761 24.6269C338.247 24.3346 337.733 24.0423 337.072 23.75L334.503 22.6539C330.833 21.1193 329.071 18.8539 329.071 15.9308C329.071 13.9577 329.805 12.2769 331.347 10.9616C332.888 9.64617 334.797 8.91541 337.072 8.91541C340.229 8.98848 342.578 10.45 344.34 13.4462Z"
+            fill="#2C2C2C" />
+        </g>
+        <defs>
+          <clipPath id="clip0_85_351">
+            <rect width="345" height="38" fill="white" />
+          </clipPath>
+        </defs>
+      </svg>
+    </a>
+    <div class="linea linea-info"></div>
+    
+    <div class="vero-info fix-width">
+
+      <div class="video-container-vero">
+        <video id="video-vero" class='video-vero' preload="metadata" poster="./img/placeholder.svg">
+          
+        </video>
+        <a href="#" id='video-conoceme' class="social-button">
+          <span>Conóceme</span>
+        </a>
+
+      </div>
+
+      <div class="info">
+        <h2>sobre mi</h2>
+        <h3>Diseñadora de cocinas en México</h3>
+
+        <article>
+          <h4>15 años</h4>
+          <p>de experiencia diseñando espacios para la alimentación masiva</p>
+        </article>
+
+        <article>
+          <h4>99+ Clientes</h4>
+          <p>satisfechos a través de mi trayectoria</p>
+        </article>
+
+        <article>
+          <h4>100% especializado</h4>
+          <p>en el area de alimentos</p>
+        </article>
+
+        <article>
+          <h4>15 años</h4>
+          <p>Proyecto profesional, ético y responsable para la industria gastronómica</p>
+        </article>
+
+      </div>
+    </div>
+    <div class="linea linea-info-2"></div>
+  </section>
+
+  <section id="first-section">
+    <div class="fix-width">
+
+      <div class="linea linea-text"></div>
+
+      <div class="first-text">
+
+        <article class="text-container">
+          <div class="text-left">
+            <h1>Diseño de cocinas</h1>
+            <h2>Construye los flujos más inteligentes para tu negocio</h2>
+            <a href='#form-section' class="call-to-action links-a">
+              <span>Quiero asesoría</span>
+            </a>
+          </div>
+
+          <div class="text-right">
+            <h1>Planea tu proyecto con nosotros</h1>
+            <h2>Aprovecha al máximo tu espacio pensando a futuro</h2>
+            <a href='#second-section' class="call-to-action links-a">
+              <span>Conoce más</span>
+            </a>
+          </div>
+
+        </article>
+
+      </div>
+
+      <div class="table">
+        <div id='top-table' class="top-table">
+
+          <div class="card-container">
+
+            <div class="cards first-cards">
+
+              <article class="card card1 first-card1 card-item1">
+                <!-- <h3>Trabajamos para...</h3> -->
+                <p>Reducir las mermas</p>
+              </article>
+
+              <article class="card card1 first-card2 card-item2">
+                <p>Mantener una operación continua en mi cocina</p>
+                <!-- <h2>Algunos de mis clientes...</h2>
+                <div>
+                  <img class='active' src="img/logo-sushito.svg" alt="">
+                  <img src="img/logo-pescadito.svg" alt="">
+                  <img src="img/logo-toks.png" alt="">
+                </div> -->
+              </article>
+
+              <article class="card card1 first-card3 card-item3">
+                <!-- <h3>15 años</h3> -->
+                <p>Cocinas industriales</p>
+              </article>
+
+              <article class="card card1 first-card4 card-item4">
+                <!-- <h3>100%</h3> -->
+                <p>Proyectos independientes</p>
+              </article>
+
+              <article class="card card1 first-card5 card-item5">
+                <!-- <img class='active' src="img/plano-1.jpg" alt="">
+                <img src="img/plano-2.jpg" alt=""> -->
+                <img style='height: 100%; object-fit: contain;' src="./img/Panda-Express-Logo.png" alt="panda">
+              </article>
+
+              <article class="card card1 first-card6 card-item6">
+                
+              </article>
+
+              <article class="card card1 first-card7 card-item7">
+                
+              </article>
+
+              <article class="card card1 first-card8 card-item8">
+                
+              </article>
+
+              <article class="card card1 first-card9 card-item9">
+                
+              </article>
+
+            </div>
+
+            <div class="cards second-cards">
+
+              <article class="card card2 card-item1">
+                <!-- <h3>Trabajamos para...</h3> -->
+                <p>Cadenas de restaurantes</p>
+              </article>
+
+              <article class="card card2 card-item2">
+                <!-- <h2>Algunos de mis clientes...</h2> -->
+                <p>Regulaciones y estándares</p>
+                <!-- <div>
+                  <img class='active' src="img/logo-sushito.svg" alt="">
+                  <img src="img/logo-pescadito.svg" alt="">
+                  <img src="img/logo-toks.png" alt="">
+                </div> -->
+              </article>
+
+              <article class="card card2 card-item3">
+                <!-- <h3>15 años</h3> -->
+                <p>Inversión con rentabilidad a corto y largo plazo</p>
+              </article>
+
+              <article class="card card2 card-item4">
+                <!-- <h3>100%</h3> -->
+                <img style='height: 100%; object-fit: contain;' src="./img/logo-toks.png" alt="toks">
+              </article>
+
+              <article class="card card2 card-item5">
+                <img style='height: 100%; object-fit: contain;' src="./img/logo-sushito.svg" alt="sushito">
+                <!-- <img class='active' src="img/plano-1.jpg" alt="">
+                <img src="img/plano-2.jpg" alt=""> -->
+              </article>
+
+              <article class="card card2 card-item6">
+                
+              </article>
+
+              <article class="card card2 card-item7">
+                
+              </article>
+
+              <article class="card card2 card-item8">
+                
+              </article>
+
+              <article class="card card2 card-item9">
+                
+              </article>
+
+            </div>
+          </div>
+
+          <div class="shadow-table"></div>
+
+        </div>
+
+        <!-- <div class="legs-table">
+
+          <div class="leg-table leg-front leg1"></div>
+          <div class="leg-table leg-front leg4"></div>
+          <div class="div-table"></div>
+          <div class="leg-table leg-back leg2"></div>
+          <div class="leg-table leg-back leg3"></div>
+        </div> -->
+      </div>
+
+    </div>
+  </section>
+  </div>
+
+  <section id='second-section' class="crezcamos">
+
+    <div class="fix-width">
+
+      <h2 class="title-crezcamos">
+        <div class="linea linea-crezcamos"></div>
+        Tu cocina optimizada
+      </h2>
+
+      <div class="carousel-container">
+
+        <div class="linea linea-carousel2"></div>
+
+        <div id='images-carousel' class="images-carousel owl-carousel">
+        </div>
+
+        <div id='images-carousel2' class="images-carousel owl-carousel">
+        </div>
+
+      </div>
+    </div>
+
+    <!-- <div class="custom-shape-divider-top-1649712307 scale-top">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+      </svg>
+    </div> -->
+
+  </section>
+
+  <section id='video-section' class="video-container">
+
+    <div class="fix-width">
+
+
+      <div class="linea" style="height: 111%;"></div>
+      <div class="linea linea-video"></div>
+
+      <h2>manos a la obra</h2>
+
+      <div class="contain-videos">
+
+        <div class="redes">
+
+          <a href="www.linkedin.com/in/veronica-millares-4928193a">
+            <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_85_342)">
+                <path
+                  d="M23.6494 0H2.3457C1.3252 0 0.5 0.805664 0.5 1.80176V23.1934C0.5 24.1895 1.3252 25 2.3457 25H23.6494C24.6699 25 25.5 24.1895 25.5 23.1982V1.80176C25.5 0.805664 24.6699 0 23.6494 0ZM7.91699 21.3037H4.20605V9.37012H7.91699V21.3037ZM6.06152 7.74414C4.87012 7.74414 3.9082 6.78223 3.9082 5.5957C3.9082 4.40918 4.87012 3.44727 6.06152 3.44727C7.24805 3.44727 8.20996 4.40918 8.20996 5.5957C8.20996 6.77734 7.24805 7.74414 6.06152 7.74414ZM21.8037 21.3037H18.0977V15.5029C18.0977 14.1211 18.0732 12.3389 16.1689 12.3389C14.2402 12.3389 13.9473 13.8477 13.9473 15.4053V21.3037H10.2461V9.37012H13.8008V11.001H13.8496C14.3428 10.0635 15.5537 9.07227 17.3555 9.07227C21.1104 9.07227 21.8037 11.543 21.8037 14.7559V21.3037Z"
+                  fill="white" />
+              </g>
+              <defs>
+                <clipPath id="clip0_85_342">
+                  <rect width="25" height="25" fill="white" transform="translate(0.5)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+
+          <a href="https://instagram.com/veromillares?igshid=YmMyMTA2M2Y=">
+            <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_85_341)">
+                <path
+                  d="M13 2.75098C16.3398 2.75098 16.7354 2.76562 18.0488 2.82422C19.2695 2.87793 19.9287 3.08301 20.3682 3.25391C20.9492 3.47852 21.3691 3.75195 21.8037 4.18652C22.2432 4.62598 22.5117 5.04102 22.7363 5.62207C22.9072 6.06152 23.1123 6.72559 23.166 7.94141C23.2246 9.25977 23.2393 9.65527 23.2393 12.9902C23.2393 16.3301 23.2246 16.7256 23.166 18.0391C23.1123 19.2598 22.9072 19.9189 22.7363 20.3584C22.5117 20.9395 22.2383 21.3594 21.8037 21.7939C21.3643 22.2334 20.9492 22.502 20.3682 22.7266C19.9287 22.8975 19.2647 23.1025 18.0488 23.1563C16.7305 23.2148 16.335 23.2295 13 23.2295C9.66016 23.2295 9.26465 23.2148 7.95117 23.1563C6.73047 23.1025 6.07129 22.8975 5.63184 22.7266C5.05078 22.502 4.63086 22.2285 4.19629 21.7939C3.75684 21.3545 3.48828 20.9395 3.26367 20.3584C3.09277 19.9189 2.8877 19.2549 2.83398 18.0391C2.77539 16.7207 2.76074 16.3252 2.76074 12.9902C2.76074 9.65039 2.77539 9.25488 2.83398 7.94141C2.8877 6.7207 3.09277 6.06152 3.26367 5.62207C3.48828 5.04102 3.76172 4.62109 4.19629 4.18652C4.63574 3.74707 5.05078 3.47852 5.63184 3.25391C6.07129 3.08301 6.73535 2.87793 7.95117 2.82422C9.26465 2.76562 9.66016 2.75098 13 2.75098ZM13 0.5C9.60645 0.5 9.18164 0.514648 7.84863 0.573242C6.52051 0.631836 5.60742 0.84668 4.81641 1.1543C3.99121 1.47656 3.29297 1.90137 2.59961 2.59961C1.90137 3.29297 1.47656 3.99121 1.1543 4.81152C0.84668 5.60742 0.631836 6.51562 0.573242 7.84375C0.514648 9.18164 0.5 9.60645 0.5 13C0.5 16.3936 0.514648 16.8184 0.573242 18.1514C0.631836 19.4795 0.84668 20.3926 1.1543 21.1836C1.47656 22.0088 1.90137 22.707 2.59961 23.4004C3.29297 24.0938 3.99121 24.5234 4.81152 24.8408C5.60742 25.1484 6.51563 25.3633 7.84375 25.4219C9.17676 25.4805 9.60156 25.4951 12.9951 25.4951C16.3887 25.4951 16.8135 25.4805 18.1465 25.4219C19.4746 25.3633 20.3877 25.1484 21.1787 24.8408C21.999 24.5234 22.6973 24.0938 23.3906 23.4004C24.084 22.707 24.5137 22.0088 24.8311 21.1885C25.1387 20.3926 25.3535 19.4844 25.4121 18.1563C25.4707 16.8232 25.4854 16.3984 25.4854 13.0049C25.4854 9.61133 25.4707 9.18652 25.4121 7.85352C25.3535 6.52539 25.1387 5.61231 24.8311 4.82129C24.5234 3.99121 24.0986 3.29297 23.4004 2.59961C22.707 1.90625 22.0088 1.47656 21.1885 1.15918C20.3926 0.851562 19.4844 0.636719 18.1563 0.578125C16.8184 0.514648 16.3936 0.5 13 0.5Z"
+                  fill="white" />
+                <path
+                  d="M13 6.5791C9.45508 6.5791 6.5791 9.45508 6.5791 13C6.5791 16.5449 9.45508 19.4209 13 19.4209C16.5449 19.4209 19.4209 16.5449 19.4209 13C19.4209 9.45508 16.5449 6.5791 13 6.5791ZM13 17.165C10.7002 17.165 8.83496 15.2998 8.83496 13C8.83496 10.7002 10.7002 8.83496 13 8.83496C15.2998 8.83496 17.165 10.7002 17.165 13C17.165 15.2998 15.2998 17.165 13 17.165Z"
+                  fill="white" />
+                <path
+                  d="M21.1738 6.32514C21.1738 7.15522 20.5 7.82416 19.6748 7.82416C18.8447 7.82416 18.1758 7.15033 18.1758 6.32514C18.1758 5.49506 18.8496 4.82611 19.6748 4.82611C20.5 4.82611 21.1738 5.49994 21.1738 6.32514Z"
+                  fill="white" />
+              </g>
+              <defs>
+                <clipPath id="clip0_85_341">
+                  <rect width="25" height="25" fill="white" transform="translate(0.5 0.5)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+
+          <!-- <a href="#">
+            <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M18.284 0H14.0708V17.029C14.0708 19.058 12.4504 20.7247 10.4338 20.7247C8.41718 20.7247 6.79671 19.058 6.79671 17.029C6.79671 15.0362 8.38117 13.4058 10.3258 13.3333V9.05799C6.04049 9.13042 2.5835 12.6449 2.5835 17.029C2.5835 21.4493 6.11251 25 10.4698 25C14.827 25 18.356 21.4131 18.356 17.029V8.29708C19.9405 9.45653 21.885 10.1449 23.9377 10.1812V5.9058C20.7688 5.7971 18.284 3.1884 18.284 0Z"
+                fill="white" />
+            </svg>
+          </a> -->
+
+        </div>
+
+        <div id="video-slider" class="owl-carousel video-section">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id='form-section' class="last-section">
+
+    <!-- <div class="custom-shape-divider-top-1649712307">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+      </svg>
+    </div> -->
+
+    <div class="fix-width">
+
+      <div class="linea linea-form"></div>
+
+      <h2>Agenda una asesoría</h2>
+      <p>Platiquemos sobre tu proyecto</p>
+
+      <div class="form-container">
+        <div id="sib-form-container" class="sib-form-container">
+
+          <div id="error-message" class="sib-form-message-panel">
+            <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+              <svg viewBox="0 0 512 512" class="sib-icon sib-notification__icon">
+                <path
+                  d="M256 40c118.621 0 216 96.075 216 216 0 119.291-96.61 216-216 216-119.244 0-216-96.562-216-216 0-119.203 96.602-216 216-216m0-32C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm-11.49 120h22.979c6.823 0 12.274 5.682 11.99 12.5l-7 168c-.268 6.428-5.556 11.5-11.99 11.5h-8.979c-6.433 0-11.722-5.073-11.99-11.5l-7-168c-.283-6.818 5.167-12.5 11.99-12.5zM256 340c-15.464 0-28 12.536-28 28s12.536 28 28 28 28-12.536 28-28-12.536-28-28-28z" />
+              </svg>
+              <span class="sib-form-message-panel__inner-text">
+                No hemos podido enviar sus datos. Intentalo mas tarde
+              </span>
+            </div>
+          </div>
+
+          <div id="success-message" class="sib-form-message-panel">
+            <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+              <svg viewBox="0 0 512 512" class="sib-icon sib-notification__icon">
+                <path
+                  d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 464c-118.664 0-216-96.055-216-216 0-118.663 96.055-216 216-216 118.664 0 216 96.055 216 216 0 118.663-96.055 216-216 216zm141.63-274.961L217.15 376.071c-4.705 4.667-12.303 4.637-16.97-.068l-85.878-86.572c-4.667-4.705-4.637-12.303.068-16.97l8.52-8.451c4.705-4.667 12.303-4.637 16.97.068l68.976 69.533 163.441-162.13c4.705-4.667 12.303-4.637 16.97.068l8.451 8.52c4.668 4.705 4.637 12.303-.068 16.97z" />
+              </svg>
+              <span class="sib-form-message-panel__inner-text">
+                Tus datos se enviaron con exito
+              </span>
+            </div>
+          </div>
+
+          <div id="sib-container" class="sib-container--large sib-container--vertical">
+            <form id="sib-form" method="POST" action="https://dc8b637e.sibforms.com/serve/MUIEACmgg2CaiqanQtOhiOZQ7OnRXeXbn5fZ9PEbmif-W81ABt6ddj0erQfn47dd8M2UN-9vzETfOmj9l328l0o2jJ6Q-egbWv9-isfDYA-cqWqwrjOkRXXeH5vxlf59ZAo0X80LQl5RjjusRrlMldJoqFLyvNAf0QoHOGLWHNodnH37zSaa6Kfxd02kJmXwnG-_B_LoID6GNNTj" data-type="subscription">
+
+              <div class="sib-input sib-form-block">
+                <div class="form__entry entry_block">
+                  <div class="form__label-row ">
+
+                    <input class="input" maxlength="200" type="text" id="NOMBRE" name="NOMBRE" autocomplete="off"
+                      data-required="true" required />
+
+                    <label class="entry__label" for="NOMBRE" data-required=" *">Nombre</label>
+
+                  </div>
+
+                  <label class="entry__error entry__error--primary"></label>
+
+                </div>
+              </div>
+
+              <div class="sib-input sib-form-block">
+                <div class="form__entry entry_block">
+                  <div class="form__label-row">
+
+                    <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="off" data-required="true"
+                      required />
+
+                    <label class="entry__label" for="EMAIL" data-required=" *">Correo Electrónico</label>
+
+                  </div>
+
+                  <label class="correo-error entry__error entry__error--primary"></label>
+
+                </div>
+              </div>
+
+              <div class="sib-input sib-form-block">
+                <div class="form__entry entry_block">
+                  <div class="form__label-row ">
+
+                    <input class="input" maxlength="200" type="text" id="TELEFONO" name="TELEFONO" autocomplete="off"
+                      data-required="true" required />
+
+                    <label class="entry__label" for="TELEFONO" data-required=" *">Teléfono</label>
+
+                  </div>
+
+                  <label class="entry__error entry__error--primary"></label>
+
+                </div>
+              </div>
+
+              <div class="sib-input sib-form-block">
+                <div class="form__entry entry_block">
+                  <div class="form__label-row ">
+
+                    <input class="input valid" maxlength="200" type="text" id="COMENTARIOS" name="COMENTARIOS"
+                      autocomplete="off" />
+
+                    <label class="entry__label" for="COMENTARIOS">Comentarios</label>
+
+                  </div>
+
+                  <label class="entry__error entry__error--primary"></label>
+
+                </div>
+              </div>
+
+              <div class="sib-form-block" style="text-align: left">
+                <button class="sib-form-block__button call-to-action sib-form-block__button-with-loader envio-btn"
+                  form="sib-form" type="submit">
+                  <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512">
+                    <path
+                      d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z" />
+                  </svg>
+                  <span>Enviar</span>
+                </button>
+              </div>
+
+              <input type="text" name="email_address_check" value="" class="input--hidden">
+              <input type="hidden" name="locale" value="es">
+            </form>
+          </div>
+
+        </div>
+
+        <div class="datos-form">
+          <img src="img/logo-form.svg" alt="logo">
+          <h3>Otros medios de contacto:</h3>
+          <ul>
+            <li>
+              <img src="img/whatsapp.svg" alt="whatsapp">
+              <a class="whatsapp-button linea-before" id="btn-mob" href="https://wa.me/5513959199" target="_blank">55 13 95 91 99</a>
+            </li>
+            <li>
+              <img src="img/mail.svg" alt="correo">
+              <a class='linea-before' href="mailto:veronica@restaurantismo.com">veronica@restaurantismo.com</a>
+            </li>
+            <li>
+              <img src="img/facebook.svg" alt="facebook">
+              <a class='linea-before' href="https://www.facebook.com/arqveromillares/">www.facebook.com/veronica</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <footer>
+        <a href="#body" class="links-a">
+          <img src="img/logo-wm.svg" alt="logo">
+        </a>
+        <span>Derechos Reservados 2022 ©</span>
+        <address>México, CDMX</address>
+      </footer>
+
+    </div>
+  </section>
+
+</body>
+<!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.4.8/plyr.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+<script src="https://sibforms.com/forms/end-form/build/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/CSSRulePlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>
+
+<!-- SOBRE MI
+Space Food Designer
+15 años
+de experiencia diseñando espacios para la alimentación masiva
+
+99+ Clientes
+satisfechos a través de mi trayectoria
+
+100% especializado
+en el area de alimentos
+
+15 años
+Proyecto profesional, ético y responsable para la industria gastronómica -->
+<!-- 
+  Formación como arquitecta
+  Especialidad en alimentación masiva por el Cesa
+  Especialidad en Administración de la Construcción
+
+  Mi Formación Genera Proyectos Rentables y Eficientes
+  Generando un flujo de Operación continua
+
+  Multiple experiencia con proyectos independientes, Grandes cadenas, comedores industriales
+
+  Trabajos internacionales
+
+  'Sushito' 'Pescadito' 'Toks'
+ -->
